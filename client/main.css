@@ -1,0 +1,31 @@
+body {
+  padding-top: 50px;
+}
+video {
+  width: 80%;
+  background: black;
+}
+.app-body {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+#login-buttons {
+  padding-top: 17px;
+}
+.online {
+  color: green;
+  cursor: pointer;
+}
+.offline {
+  color: red;
+  cursor: not-allowed;
+}
+@media (max-width: 768px) {
+  #navbar {
+    overflow-y: initial;
+  }
+  #login-buttons{
+    padding: 0px 17px;
+  }
+}
